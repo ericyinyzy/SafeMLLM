@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+
+# Environments
+.venv
+venv/
+env/
+ENV/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training / inference artifacts (push to HF Hub instead)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.log
+
+# Result directories produced at runtime
+result_L7B/
+result_L13B/
+results_figstep/
+results_mmbench/
+results_utility_mmvet/
+output_*.log
+
+# Adversarial-image archives (host on HF)
+advimg_*/
+adv_img*.pt
+
+# Datasets that users must download themselves (do not commit)
+dataset/figstep/
+dataset/mm-safety-bench/
+dataset/mm-vet/
+
+# Local checkpoints
+checkpoints/
